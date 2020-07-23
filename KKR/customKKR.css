@@ -1,0 +1,52 @@
+body {
+	font-family: 'Yeon Sung', cursive;
+}
+
+/* Utilty Classes*/
+
+.img-responsive {
+  max-width: 100%;
+}
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
+.product__list__item1 {
+        float: left;
+	width: 37%;
+	margin-top: .5rem;
+}
+
+
+.product__list__item1:first-of-type {
+	margin-left: 0;
+	align: inline;
+        float: left;
+}
+
+.product__list__item2 {
+        float: left;
+	width: 20%;
+	margin-top: .5rem;
+}
+
+
+.product__list__item2:first-of-type {
+	margin-left: 0;
+	align: inline;
+        float: left;
+}
+
+
+@media screen and (max-width: 700px) {
+	.product__list__item { 
+		width: 100%;
+	}
+}

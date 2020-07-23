@@ -1,0 +1,126 @@
+body {
+	font-family: 'Yeon Sung', cursive;
+}
+
+/* Utilty Classes*/
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.home_page {
+	background: url(Background1.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.home_wrapper {
+	color:Black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.home_wrapper h1 {
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+.home_wrapper h4 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.form {
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+/* Review page*/
+
+.reviewpage {
+	background: url(Background1.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.review {
+	height: 50px;
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+}
+
+input {
+	height: 45px;
+}
+
+form .submit
+{
+	background: #800000;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit
+{
+	background-color: #800000;
+	cursor: pointer;
+} 
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 40%;
+	margin-left: .5rem;
+}
+
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
+
+.history {
+	width: 100%;
+	margin-top: 6rem;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+
+.footer {
+	color:black;
+	position: absolute;
+	bottom: 3%;
+	left: 40%;
+	transform: translate(0.2%,50%);
+}
+
+@media screen and (max-width: 700px) {
+	.product__list__item { 
+		width: 100%;
+		float: none;
+	}
+}
